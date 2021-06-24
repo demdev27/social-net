@@ -1,11 +1,11 @@
-import "./App.css";
+import Navbar from "./components/navbar";
+import Home from "./components/home";
 
 function App() {
   return (
     <div className="App">
-      <div className="content">
-        <h1>Component</h1>
-      </div>
+      <Navbar />
+      <Home />
     </div>
   );
 }
